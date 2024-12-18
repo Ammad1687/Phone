@@ -10,7 +10,7 @@ function closeModal() {
 function submitName() {
     const name = document.getElementById('nameInput').value;
     if (name) {
-        alert(`Hello, ${name}! Welcome to our website.`);
+        alert(`Hello, ${name}! You are Hacked`);
         closeModal();  // Close the modal after submission
     } else {
         alert('Please enter your name.');
