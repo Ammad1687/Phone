@@ -7,3 +7,12 @@ window.onload = function () {
 function closeModal() {
     document.getElementById("welcomeModal").style.display = "none";
 }
+function submitName() {
+    const name = document.getElementById('nameInput').value;
+    if (name) {
+        alert(`Hello, ${name}! Welcome to our website.`);
+        closeModal();  // Close the modal after submission
+    } else {
+        alert('Please enter your name.');
+    }
+}
